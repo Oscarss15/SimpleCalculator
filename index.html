@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Caculator</title>
+    <link rel="stylesheet" href="./public/styles/styles.css" />
+  </head>
+  <body>
+    <div id="calculadora">Calculadora</div>
+    <div id="containermain">
+      <div id="main">
+        <div id="boxnum1">
+          <input
+            type="number"
+            id="num1"
+            placeholder="Escribe un primer número"
+          />
+        </div>
+        <div id="boxnum2">
+          <input
+            type="number"
+            id="num2"
+            placeholder="Escribe un segundo número"
+          />
+        </div>
+        <div id="boxsigno">
+          <input
+            type="text"
+            id="signo"
+            placeholder="Escribe el signo de la operación"
+          />
+        </div>
+        <div id="buttons">
+          <button id="divisible" value="divisible">Operación</button>
+          <button id="reset" value="reset">Reset</button>
+        </div>
+        <div id="mostrarResultado"></div>
+      </div>
+    </div>
+    <script src="./public/js/app.js"></script>
+  </body>
+</html>

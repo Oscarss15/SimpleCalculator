@@ -1,0 +1,16 @@
+{
+  "name": "simplecalculator",
+  "version": "1.0.0",
+  "description": "Calculadora javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "sass": "sass ./src/sass/styles.scss ./public/styles/styles.css",
+    "sass-w": "sass --watch ./src/sass:./public/styles"
+  },
+  "author": "oscar",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.5"
+  }
+}
